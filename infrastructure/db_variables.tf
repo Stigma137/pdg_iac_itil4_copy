@@ -20,11 +20,11 @@ variable "db_name" {
 }
 variable "username" {
 	type = string
-	default = "stig"
+	default = "YOUR_USER"
 }
 variable "password" {
 	type = string
-	default = "stigma1234"
+	default = "YOUR_PASSWORD"
 }
 variable "parameter_group_name" {
 	type = string
