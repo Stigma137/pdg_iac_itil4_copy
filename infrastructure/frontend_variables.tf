@@ -125,17 +125,17 @@ variable "lb_listener_type" {
 
 variable "public_security_group_id" {
   type    = string
-  default = "sg-0116d57ce7bdd5c80"
+  default = "YOUR_PUBLIC_SECURITY_GROUP_ID"
 }
 
 variable "public_subnet_id" {
   type    = string
-  default = "subnet-0280ecc5985e2678a"
+  default = "YOUR_PUBLIC_SUBNET_ID"
 }
 
 variable "public1_subnet_id" {
   type    = string
-  default = "subnet-0b29989320f518642"
+  default = "YOUR_PUBLIC1_SUBNET_ID"
 }
 
 
