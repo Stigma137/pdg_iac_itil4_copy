@@ -132,5 +132,5 @@ variable "map_public_ip_on_launch" {
 
 variable "main_vpc_id" {
   type        = string
-  default     = "vpc-0ed312fbac4fb2ba3"
+  default     = "YOUR_VPC_ID"
 }
