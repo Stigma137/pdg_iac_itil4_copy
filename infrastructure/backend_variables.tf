@@ -50,17 +50,17 @@ variable "backend_lbl_port" {
 
 variable "private_security_group_id" {
   type    = string
-  default = "sg-056809186f4c1b8ef"
+  default = "YOUR_PRIVATE_SECURITY_GROUP_ID"
 }
 
 variable "private_subnet_id" {
   type    = string
-  default = "subnet-006411107512e33d7"
+  default = "YOUR_PRIVATE_SUBNET_ID"
 }
 
 variable "private1_subnet_id" {
   type    = string
-  default = "subnet-09f98f104df74b5f9"
+  default = "YOUR_PRIVATE1_SUBNET_ID"
 }
 
 
